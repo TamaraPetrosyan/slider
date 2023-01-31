@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JAVASCRIPT</title>
+	<meta name="viewport" content="width= device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+    <div class="dropdown">
+		<button class="btn btn-secondary dropdown-toggle col-sm-6 offset-sm-3" type="button" data-bs-toggle="dropdown"
+			aria-expanded="false">
+			MENU
+		</button>
+		<ul class="dropdown-menu col-sm-6 offset-sm-3">
+			<li><button id = 'home' class="dropdown-item " type="button">Home</button></li>
+			<li><button id = 'about' class="dropdown-item " type="button">About</button></li>
+			<li><button id = 'contact'class="dropdown-item " type="button">Contact</button></li>
+
+		</ul>
+	</div>
+    <form name="user-form">
+        <div class="form-group">
+            <label for="exampleInputPassword1" >First name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="First name" name="first-name" required>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Last name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last name" name="last-name" required>
+          </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+        </div>
+        <div class="form-group purple-border">
+            <label for="exampleFormControlTextarea4">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea4" rows="3" placeholder="Write your message" name="message"></textarea>
+          </div>                  
+        <button type="submit" class="btn btn-primary" name="submit" id="submit">Submit</button>
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+    
+</body>
+</html>

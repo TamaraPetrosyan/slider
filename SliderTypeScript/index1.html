@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>JAVASCRIPT</title>
+	<meta name="viewport" content="width= device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+	<div class="dropdown">
+		<button class="btn btn-secondary dropdown-toggle col-sm-6 offset-sm-3" type="button" data-bs-toggle="dropdown"
+			aria-expanded="false">
+			MENU
+		</button>
+		<ul class="dropdown-menu col-sm-6 offset-sm-3">
+			<li><button id='home' class="dropdown-item " type="button">Home</button></li>
+
+			<li><button id = 'about' class="dropdown-item " type="button">About</button></li>
+			<li><button id = 'contact'class="dropdown-item " type="button">Contact</button></li>
+
+
+		</ul>
+	</div>
+	<div class="slideshow-container">
+		<div class="slideshow-inner">
+		  <div class="mySlides">
+		
+			<img  style='width: 100%;height: 100%;' alt="sally lightfoot crab">
+			
+		  </div>
+		
+		  <div class="mySlides ">
+		
+			<img   style='width: 100%;height:100%;' alt="fighting nazca boobies">
+		
+		  </div>
+		
+		  <div class="mySlides ">
+		
+			<img   style='width: 100%; height: 100%;' alt="otovalo waterfall">
+		
+		  </div>
+	
+		  
+		  </div>
+		
+		
+		  <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+		  <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+		</div>
+		<br/>
+		
+		
+		<div style='text-align: center;'>
+		  <span class="dot" onclick='currentSlide(1)'></span>
+		  <span class="dot" onclick='currentSlide(2)'></span>
+		  <span class="dot" onclick='currentSlide(3)'></span>
+	
+		</div>
+		
+		</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
